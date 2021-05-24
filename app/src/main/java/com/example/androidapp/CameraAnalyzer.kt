@@ -6,7 +6,7 @@ import java.nio.ByteBuffer
 
 class CameraAnalyzer(private val listener: LumaListener): ImageAnalysis.Analyzer {
 
-    private fun ByteBuffer.toByteArray(): ByteArray {
+    private fun ByteBuffer.toByteArray():ByteArray {
         rewind()    // Rewind the buffer to zero
         val data = ByteArray(remaining())
         get(data)   // Copy the buffer into a byte array
