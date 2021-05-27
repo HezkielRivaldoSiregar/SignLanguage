@@ -109,6 +109,8 @@ class MainActivity : AppCompatActivity() {
         val msg = "Photo capture succeeded: $savedUri"
         Toast.makeText(baseContext, msg, Toast.LENGTH_SHORT).show()
         Log.d(TAG, msg)
+
+
     }
 
     private fun startCamera() {
