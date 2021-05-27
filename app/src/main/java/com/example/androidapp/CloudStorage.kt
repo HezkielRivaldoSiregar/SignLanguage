@@ -21,9 +21,9 @@ class CloudStorage {
         private var properties: Properties? = null
         private var storage: Storage? = null
 
-        private val PROJECT_ID_PROPERTY = "0000000001"
-        private val APPLICATION_NAME_PROPERTY = "Sign Language Recognition"
-        private val ACCOUNT_ID_PROPERTY = "akunnya Ardli"
+        private val PROJECT_ID_PROPERTY = "project.id"
+        private val APPLICATION_NAME_PROPERTY = "application.name"
+        private val ACCOUNT_ID_PROPERTY = "account.id"
         private val PRIVATE_KEY_PATH_PROPERTY = "private.key.path"
 
         @Throws(Exception::class)
